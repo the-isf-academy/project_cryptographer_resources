@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project-cryptography-resources"
+version = "0.1.0"
+description = ""
+authors = ["emma <eqbrown@isf.edu.hk>"]
+readme = "README.md"
+packages = [{include = "project_cryptography_resources"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pypdf = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
